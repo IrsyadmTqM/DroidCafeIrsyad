@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="data_name">
+        <item>Nasi Goreng</item>
+        <item>Sate Ayam</item>
+        <item>Rendang</item>
+        <item>Gado-Gado</item>
+        <item>Soto Ayam</item>
+        <item>Nasi Padang</item>
+        <item>Bakso</item>
+        <item>Martabak Manis</item>
+        <item>Ayam Geprek</item>
+        <item>Rawon</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Nasi goreng khas Indonesia dengan bumbu kecap manis dan telur.</item>
+        <item>Panggang daging ayam tusuk dengan saus kacang gurih.</item>
+        <item>Daging sapi dimasak dengan santan dan rempah-rempah khas Padang.</item>
+        <item>Salad sayur dengan saus kacang khas Betawi.</item>
+        <item>Sup ayam bening dengan suwiran ayam dan bihun.</item>
+        <item>Nasi lengkap dengan lauk pauk khas Minangkabau.</item>
+        <item>Bola daging kenyal disajikan dalam kuah kaldu gurih.</item>
+        <item>Kue tebal berlapis dengan isian coklat atau keju manis.</item>
+        <item>Ayam goreng tepung pedas dengan sambal bawang menggigit.</item>
+        <item>Sup daging sapi hitam khas Jawa Timur dengan kuah kluwek.</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>https://example.com/nasigoreng.jpg</item>
+        <item>https://example.com/sateayam.jpg</item>
+        <item>https://example.com/rendang.jpg</item>
+        <item>https://example.com/gadogado.jpg</item>
+        <item>https://example.com/sotoayam.jpg</item>
+        <item>https://example.com/nasipadang.jpg</item>
+        <item>https://example.com/bakso.jpg</item>
+        <item>https://example.com/martabakmanis.jpg</item>
+        <item>https://example.com/ayamgeprek.jpg</item>
+        <item>https://example.com/rawon.jpg</item>
+    </string-array>
+</resources>

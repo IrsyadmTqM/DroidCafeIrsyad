@@ -1,0 +1,18 @@
+package lat.pam.droidcafeirsyad
+
+import android.os.Bundle
+import android.view.View
+import androidx.fragment.app.Fragment
+
+class ProfileFragment : Fragment(R.layout.fragment_profile) {
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        // Di sini kamu bisa setup tampilan profil pengguna
+        // Contoh: ambil TextView dan isi nama pengguna
+
+        // val txtName = view.findViewById<TextView>(R.id.txtName)
+        // txtName.text = "Nama Pengguna: Irsyad"
+    }
+}
