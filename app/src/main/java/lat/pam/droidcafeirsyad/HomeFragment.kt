@@ -8,12 +8,14 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import androidx.fragment.app.activityViewModels
 
 class HomeFragment : Fragment() {
 
     private lateinit var rvHeroes: RecyclerView
     private val list = ArrayList<Hero>()
 
+    private val orderViewModel: OrderViewModel by activityViewModels()
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -49,12 +51,17 @@ class HomeFragment : Fragment() {
 
         listHeroAdapter.setOnItemClickCallback(object : ListHeroAdapter.OnItemClickCallback {
             override fun onItemClicked(data: Hero) {
+                // KIRIM DATA KE VIEWMODEL
+                orderViewModel.addOrder(data)
+
+                // Tampilkan toast konfirmasi
                 showSelectedHero(data)
             }
         })
     }
 
     private fun showSelectedHero(hero: Hero) {
-        Toast.makeText(requireContext(), "Kamu memilih ${hero.name}", Toast.LENGTH_SHORT).show()
+        Toast.makeText(requireContext(), "${hero.name} ditambahkan ke pesanan", Toast.LENGTH_SHORT).show()
     }
 }
+

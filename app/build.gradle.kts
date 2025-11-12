@@ -51,6 +51,9 @@ dependencies {
 
     implementation(libs.circleimageview)
 
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3")
+    implementation("androidx.fragment:fragment-ktx:1.8.1")
+
     // ✅ Glide dependencies
     implementation("com.github.bumptech.glide:glide:5.0.5")
     kapt("com.github.bumptech.glide:compiler:5.0.5")

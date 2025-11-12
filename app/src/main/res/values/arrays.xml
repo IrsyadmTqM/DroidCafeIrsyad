@@ -27,15 +27,15 @@
     </string-array>
 
     <string-array name="data_photo">
-        <item>https://example.com/nasigoreng.jpg</item>
-        <item>https://example.com/sateayam.jpg</item>
-        <item>https://example.com/rendang.jpg</item>
-        <item>https://example.com/gadogado.jpg</item>
-        <item>https://example.com/sotoayam.jpg</item>
-        <item>https://example.com/nasipadang.jpg</item>
-        <item>https://example.com/bakso.jpg</item>
-        <item>https://example.com/martabakmanis.jpg</item>
-        <item>https://example.com/ayamgeprek.jpg</item>
-        <item>https://example.com/rawon.jpg</item>
+        <item>makanan_1</item>
+        <item>makanan_2</item>
+        <item>makanan_3</item>
+        <item>makanan_4</item>
+        <item>makanan_5</item>
+        <item>makanan_6</item>
+        <item>makanan_7</item>
+        <item>makanan_8</item>
+        <item>makanan_9</item>
+        <item>makanan_10</item>
     </string-array>
 </resources>
